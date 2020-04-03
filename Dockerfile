@@ -12,6 +12,7 @@ RUN apt-get -y --no-install-recommends install \
 	zlib1g-dev \
 	libgl1-mesa-dev \
 	git \
+	file \
 	libnss3-dev \
 	libdbus-1-dev
 RUN add-apt-repository ppa:beineri/opt-qt-5.14.1-xenial -y
